@@ -16,6 +16,7 @@ module.exports = {
    * This gives you an opportunity to set up your data model,
    * run jobs, or perform some special logic.
    */
+  process.exit(0),
   bootstrap(/*{ strapi }*/) {},
   process.exit(1),
 };
